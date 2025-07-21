@@ -8,6 +8,7 @@ import Link from "next/link"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-slate-900 text-white">
+
       {/* Hero Section */}
       <section className="relative py-15 lg:py-15 animate-fade-in">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -222,116 +223,6 @@ export default function HomePage() {
             <Link href="/projects">
               <Button className="btn-secondary group">
                 View All Projects
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Blog Preview Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 animate-slide-up">
-            <Badge variant="secondary" className="bg-teal-900/50 text-teal-300 border-teal-700 mb-4">
-              Latest News
-            </Badge>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-balance">Stories from the Field</h2>
-            <p className="text-slate-300 text-lg max-w-2xl mx-auto text-pretty">
-              Stay updated with our latest initiatives, success stories, and insights from our work around the world.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="bg-slate-800 border-slate-700 hover:border-teal-600 transition-all duration-300 card-hover animate-scale-in">
-              <CardHeader className="p-0">
-                <Image
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="Blog post"
-                  width={400}
-                  height={200}
-                  className="w-full h-48 object-cover rounded-t-lg"
-                />
-              </CardHeader>
-              <CardContent className="p-6">
-                <div className="flex items-center text-sm text-slate-400 mb-3">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  December 15, 2024
-                </div>
-                <CardTitle className="text-white mb-3 hover:text-teal-400 cursor-pointer transition-colors">
-                  New School Opens in Rural Kenya
-                </CardTitle>
-                <CardDescription className="text-slate-300 mb-4 text-pretty">
-                  Thanks to community support, we've opened our 50th school, providing education access to 300 more
-                  children.
-                </CardDescription>
-                <div className="flex items-center text-sm text-slate-400">
-                  <User className="h-4 w-4 mr-2" />
-                  By Sarah Johnson
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-800 border-slate-700 hover:border-teal-600 transition-all duration-300 card-hover animate-scale-in [animation-delay:0.1s]">
-              <CardHeader className="p-0">
-                <Image
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="Blog post"
-                  width={400}
-                  height={200}
-                  className="w-full h-48 object-cover rounded-t-lg"
-                />
-              </CardHeader>
-              <CardContent className="p-6">
-                <div className="flex items-center text-sm text-slate-400 mb-3">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  December 10, 2024
-                </div>
-                <CardTitle className="text-white mb-3 hover:text-teal-400 cursor-pointer transition-colors">
-                  Clean Water Initiative Reaches Milestone
-                </CardTitle>
-                <CardDescription className="text-slate-300 mb-4 text-pretty">
-                  Our water purification project has now provided clean drinking water to over 10,000 people across 25
-                  villages.
-                </CardDescription>
-                <div className="flex items-center text-sm text-slate-400">
-                  <User className="h-4 w-4 mr-2" />
-                  By Michael Chen
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-800 border-slate-700 hover:border-teal-600 transition-all duration-300 card-hover animate-scale-in [animation-delay:0.2s]">
-              <CardHeader className="p-0">
-                <Image
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="Blog post"
-                  width={400}
-                  height={200}
-                  className="w-full h-48 object-cover rounded-t-lg"
-                />
-              </CardHeader>
-              <CardContent className="p-6">
-                <div className="flex items-center text-sm text-slate-400 mb-3">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  December 5, 2024
-                </div>
-                <CardTitle className="text-white mb-3 hover:text-teal-400 cursor-pointer transition-colors">
-                  Volunteer Spotlight: Making a Difference
-                </CardTitle>
-                <CardDescription className="text-slate-300 mb-4 text-pretty">
-                  Meet Maria Rodriguez, whose dedication to our healthcare program has transformed lives in Guatemala.
-                </CardDescription>
-                <div className="flex items-center text-sm text-slate-400">
-                  <User className="h-4 w-4 mr-2" />
-                  By David Park
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-          <div className="text-center mt-12">
-            <Link href="/blog">
-              <Button className="btn-secondary group">
-                Read All Stories
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </Link>
