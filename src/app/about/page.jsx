@@ -5,7 +5,7 @@ import { Target, Globe, Lightbulb, Award, Users } from "lucide-react";
 import { FaHeart } from "react-icons/fa";
 
 export const metadata = {
-  title: "About Us - HopeForward",
+  title: "About Us - NGOTemplate",
   description: "Learn about NGOTemplate's mission, vision, and impact in creating positive change worldwide.",
 }
 
@@ -38,25 +38,25 @@ export default function Footer() {
     {
       name: "Sarah Johnson",
       role: "Executive Director",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/woman.jpg",
       bio: "With over 15 years in international development, Sarah leads our strategic vision and global partnerships.",
     },
     {
       name: "Michael Chen",
       role: "Program Director",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/man.jpg",
       bio: "Michael oversees our field operations and ensures program quality across all our initiatives.",
     },
     {
       name: "Dr. Amara Okafor",
       role: "Healthcare Director",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/blkwoman.jpg",
       bio: "Dr. Okafor brings 20 years of medical experience to lead our healthcare and wellness programs.",
     },
     {
       name: "David Rodriguez",
       role: "Education Director",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/mannn.jpg",
       bio: "David develops and implements our educational initiatives, focusing on sustainable learning solutions.",
     },
     ]
