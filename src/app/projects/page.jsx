@@ -176,6 +176,28 @@ export default function ProjectsPage() {
                 </div>
                 </div>
             </section>
+
+            {/* Newsletter Signup */}
+            <section className="py-20 bg-slate-700/30">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <Card className="max-w-2xl mx-auto bg-slate-800 border-slate-700">
+                    <CardContent className="p-8 text-center">
+                    <h3 className="text-2xl font-bold text-white mb-4">Stay Updated</h3>
+                    <p className="text-slate-300 mb-6">
+                        Subscribe to our newsletter to receive the latest stories and updates from our work around the world.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                        <input
+                        type="email"
+                        placeholder="Enter your email address"
+                        className="flex-1 px-4 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-600"
+                        />
+                        <Button className="bg-teal-600 hover:bg-teal-700">Subscribe</Button>
+                    </div>
+                    </CardContent>
+                </Card>
+                </div>
+            </section>
         </div>
     );
 }

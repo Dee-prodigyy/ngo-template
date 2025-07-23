@@ -63,8 +63,8 @@ export default function Footer() {
                 <div>
                     <h3 className="font-semibold mb-4 text-white">Contact Info</h3>
                     <ul className="space-y-2 text-sm text-slate-400">
-                    <li>123 Hope Street</li>
-                    <li>New York, NY 10001</li>
+                    <li>123 New Street</li>
+                    <li>Somewhere, In 10001 World</li>
                     <li>Phone: (555) 123-4567</li>
                     <li>Email: info@NGOtemplate.org</li>
                     </ul>
