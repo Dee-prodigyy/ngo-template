@@ -107,22 +107,22 @@ export default function VolunteerRegistration() {
         <div className="max-w-4xl mx-auto">
           {/* Progress Indicator */}
           <div className="mb-8">
-            <div className="flex items-center mb-4">
-              {[1, 2, 3, 4].map((step) => (
-                <>
-                  <div key={step} className="flex flex-col items-center">
+            <div className="flex items-center justify-between mb-4 w-full">
+              {[1, 2, 3, 4].map((step, index) => (
+                <div key={step} className="flex items-center flex-1 last:flex-none">
+                  <div className="flex flex-col items-center">
                     <div
-                      className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium ${
+                      className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-xs sm:text-sm font-medium ${
                         currentStep >= step ? "bg-teal-600 text-white" : "bg-slate-700 text-slate-400"
                       }`}
                     >
-                      {currentStep > step ? <CheckCircle className="h-4 w-4" /> : step}
+                      {currentStep > step ? <CheckCircle className="h-3 w-3 sm:h-4 sm:w-4" /> : step}
                     </div>
                   </div>
-                  {step < 4 && (
-                    <div className={`flex-1 h-1 mx-4 ${currentStep > step ? "bg-teal-600" : "bg-slate-700"}`} />
+                  {index < 3 && (
+                    <div className={`flex-1 h-0.5 sm:h-1 ml-2 sm:ml-4 ${currentStep > step ? "bg-teal-600" : "bg-slate-700"}`} />
                   )}
-                </>
+                </div>
               ))}
             </div>
             <div className="flex justify-between text-sm text-slate-400">
