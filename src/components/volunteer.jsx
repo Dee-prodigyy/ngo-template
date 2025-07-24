@@ -254,8 +254,8 @@ export default function VolunteerRegistration() {
                         <SelectItem value="us">United States</SelectItem>
                         <SelectItem value="ca">Canada</SelectItem>
                         <SelectItem value="uk">United Kingdom</SelectItem>
-                        <SelectItem value="au">Australia</SelectItem>
-                        <SelectItem value="other">Other</SelectItem>
+                        <SelectItem value="au">Nigeria</SelectItem>
+                        <SelectItem value="other">Algeria</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
