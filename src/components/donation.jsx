@@ -220,7 +220,7 @@ export default function DonationIntegration() {
                   {/* Submit Button */}
                   <Button
                     onClick={handleSubmit}
-                    className="w-full bg-teal-600 hover:bg-teal-700 text-white font-medium py-3"
+                    className="w-full bg-teal-600 hover:bg-teal-700 hover:cursor-pointer text-white font-medium py-3"
                     disabled={!getCurrentAmount() || !selectedCause}
                   >
                     <Heart className="mr-2 h-4 w-4" />
