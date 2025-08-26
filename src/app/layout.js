@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import { icons } from "lucide-react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +18,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "NGO template",
   description: "A template for building NGO websites",
+  icons: {
+    icon: "/ngoicon.png",
+  }
+
 };
 
 export default function RootLayout({ children }) {
